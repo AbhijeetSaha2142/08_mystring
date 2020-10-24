@@ -6,4 +6,6 @@ mystring.o: mystring.c mystring.h
 	gcc -c mystring.c
 clean: 
 	rm *.o
+run:
+	./main
 	
